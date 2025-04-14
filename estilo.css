@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*elegir fuentes y convenciones en general*/
+body{
+    background-color: #b7b78a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+}
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+h4{ font-size: 1em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
+header{background-color: rgb(246, 245, 247);}
+header .logo{
+    margin: 0px;
+    padding: 15px 20px;
+    font-weight: bold;
+    color: #456b40;
+    font-size: 2.5em;
+}
+header p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #354435;
+    font-weight: bold;
+    font-size: 1.9em;
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*BOTONES*/
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1.7px solid rgba(0,0,0,01.5);
+    box-shadow: 2px 2px 10px;
+    color: white;
+    background-color: rgb(55, 56, 58);
+}
+button:hover{
+    background-color: rgb(17, 17, 20);
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+/*SECCION VACA-HERO-IMAGENES*/
+#vaca{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 80vh;
+    color: white;
+    /*imagen fondo*/
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.671),
+        rgba(0, 0, 0, 0.671)
+    ),url('../imagenes/distorsión\ capital.jpg');
+    background-repeat: no-repeat;
+    /*cubrir*/
+    background-size: cover;
+    background-position: center center;
+}
+#vaca h1{
+    color: rgb(255, 255, 255);
+}
+.enfatizar{
+    color: #355735;
+}
+#somos h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#somos .container{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 200px;
+    text-align: center;
+    /*padding sirve para la altura*/
+    padding: 20px 12px;
+}
+#somos{
+    margin: 5px 100px;
+}
+#opciones{
+    background-color: #5c855c;
+    display: flex;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 30px 12px;
+}
+#info{
+    background-color: #4c694c;
+    display: flex;
+    text-align: start;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 30px 12px;
+    font-size: 1.4em;
+    white-space: pre-line;
+}
+#programas{
+    background-color: #36392D;
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#programas .container{
+    padding: 200px 12px;
+}
+#programas h2{
+    margin-top: 0px;
+    font-size: 3em;
+}
+/*seleccionar la raiz primera para afectar a las deseadas*/
+#programas .opcio{
+    background-size: cover;
+    background-position: center center;
+    padding: 20px;
+    margin: 12px;
+    border-radius: 12px;
+    white-space: pre-line;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#programas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 150vh;
+    color: white;
+    /*imagen fondo*/
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)
+    ),url('../imagenes/foto3.jpg');
+    background-repeat: no-repeat;
+    /*cubrir*/
+    background-size: cover;
+    background-position: center center;
+}
+#opciones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 50vh;
+    color: white;
+    /*imagen fondo*/
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)
+    ),url('../imagenes/foto2.jpg');
+    background-repeat: no-repeat;
+    /*cubrir*/
+    background-size: cover;
+    background-position: center center;
+}
+section a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 1.4em;
+}
+section a :hover{
+    color: rgb(255, 255, 255);
+
+
+}
+footer a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+}
+footer a :hover{
+    color: rgb(86, 95, 85);
+
+
+}
+footer{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    background-color: #40472f;
+}
+
